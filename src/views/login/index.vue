@@ -7,10 +7,10 @@
         <!--登录表单-->
         <el-form ref="form" :model="loginForm" :rules="loginRules">
           <el-form-item prop="mobile">
-            <el-input v-model="loginForm.mobile" placeholder="用户名"></el-input>
+            <el-input v-model="loginForm.mobile" placeholder="用户名啊"></el-input>
           </el-form-item>
           <el-form-item prop="password">
-            <el-input v-model="loginForm.password" show-password placeholder="密码"></el-input>
+            <el-input v-model="loginForm.password" show-password placeholder="密码啊"></el-input>
           </el-form-item>
           <el-form-item prop="isAgree">
            <el-checkbox v-model="loginForm.isAgree">用户平台使用协议</el-checkbox>
